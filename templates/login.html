@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class>
+        <h1>LOGIN</h1>
+        <div class="form-box">
+            <form action="{{ url_for('reg') }}" method="get" autocomplete="off">
+                <label for="id">Firstname</label>
+                <input type="text" name="firstname" placeholder="Enter id" id="id">
+                <br>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter email" id="email">
+                <br>
+                <br>
+                <br>
+                <label for="password">Passsword</label>
+                <input type="password" name="label" placeholder="Enter password" id="password">
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
