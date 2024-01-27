@@ -54,7 +54,7 @@ def log():
             session[firstname] = account['firstname']
             session['email'] = account['email']
             session['password'] = account['password']
-            msg = 'Please fill form'
+            msg = 'Logged in sucessful'
             return render_template('table.html', msg=msg)
         else:
             msg = 'please fill out form'
