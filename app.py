@@ -57,7 +57,7 @@ def log():
             msg = 'Please fill form'
             return render_template('table.html', msg=msg)
         else:
-            msg = 'success denied'
+            msg = 'please fill out form'
             return render_template('login.html', msg=msg)
 
 if __name__ =='__main__':
