@@ -54,7 +54,7 @@ def log():
             session[firstname] = account['firstname']
             session['email'] = account['email']
             session['password'] = account['password']
-            msg = 'access grandted'
+            msg = 'Please fill form'
             return render_template('table.html', msg=msg)
         else:
             msg = 'success denied'
