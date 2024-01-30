@@ -36,7 +36,7 @@ def reg():
         msg = 'Registration Successfully'
         return render_template('table.html')
     elif request.method == 'POST':
-        msg = ''
+        msg = 'Please Fill out form'
     return render_template('index.html', msg=msg)
 
 
