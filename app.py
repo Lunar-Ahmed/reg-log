@@ -51,7 +51,7 @@ def log():
         account = cursor.fetchone()
         if account:
             session['loggedin'] = True
-            session[firstname] = account['firstname']
+            session['firstname'] = account['firstname']
             session['email'] = account['email']
             session['password'] = account['password']
             msg = 'Logged in sucessful'
